@@ -2,7 +2,6 @@ import UIKit
 
 class BookTableViewController: UITableViewController {
     
-    
     @IBOutlet weak private var titleLabel: UILabel!
     @IBOutlet weak private var authorLabel: UILabel!
     @IBOutlet weak private var genreLabel: UILabel!
@@ -70,6 +69,4 @@ class BookTableViewController: UITableViewController {
         
         return BookFormTableViewController(coder: coder, book: book)
     }
-    
-    
 }
